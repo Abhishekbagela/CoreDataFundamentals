@@ -7,18 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		ED562BBF27F395CA002AE1B5 /* CoreDataFundamentalsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED562BBE27F395CA002AE1B5 /* CoreDataFundamentalsApp.swift */; };
-		ED562BC127F395CA002AE1B5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED562BC027F395CA002AE1B5 /* ContentView.swift */; };
+		ED562BBF27F395CA002AE1B5 /* MainApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED562BBE27F395CA002AE1B5 /* MainApp.swift */; };
+		ED562BC127F395CA002AE1B5 /* FruitsHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED562BC027F395CA002AE1B5 /* FruitsHomeView.swift */; };
 		ED562BC327F395CC002AE1B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED562BC227F395CC002AE1B5 /* Assets.xcassets */; };
 		ED562BC627F395CC002AE1B5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED562BC527F395CC002AE1B5 /* Preview Assets.xcassets */; };
+		ED562BCE27F4EE96002AE1B5 /* CoreDataContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ED562BCC27F4EE96002AE1B5 /* CoreDataContainer.xcdatamodeld */; };
+		ED562BD327F792D4002AE1B5 /* FruitsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED562BD227F792D4002AE1B5 /* FruitsViewModel.swift */; };
+		ED562BD527F79314002AE1B5 /* Fruit.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED562BD427F79314002AE1B5 /* Fruit.swift */; };
+		ED562BD827F7935E002AE1B5 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED562BD727F7935E002AE1B5 /* Extension.swift */; };
+		ED562BDB27F7956C002AE1B5 /* BaseFruits.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED562BDA27F7956C002AE1B5 /* BaseFruits.swift */; };
+		ED562BDE27F7967D002AE1B5 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED562BDD27F7967D002AE1B5 /* CoreDataManager.swift */; };
+		ED562BE027F79FC4002AE1B5 /* LandingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED562BDF27F79FC4002AE1B5 /* LandingView.swift */; };
+		ED562BE227F7A560002AE1B5 /* ElectronicsHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED562BE127F7A560002AE1B5 /* ElectronicsHomeView.swift */; };
+		ED562BE427F7A6EF002AE1B5 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED562BE327F7A6EF002AE1B5 /* Product.swift */; };
+		ED562BE627F7A720002AE1B5 /* ElectronicsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED562BE527F7A720002AE1B5 /* ElectronicsViewModel.swift */; };
+		ED562BE827F7A781002AE1B5 /* BaseElectronics.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED562BE727F7A781002AE1B5 /* BaseElectronics.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		ED562BBB27F395CA002AE1B5 /* CoreDataFundamentals.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataFundamentals.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		ED562BBE27F395CA002AE1B5 /* CoreDataFundamentalsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataFundamentalsApp.swift; sourceTree = "<group>"; };
-		ED562BC027F395CA002AE1B5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		ED562BBE27F395CA002AE1B5 /* MainApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainApp.swift; sourceTree = "<group>"; };
+		ED562BC027F395CA002AE1B5 /* FruitsHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitsHomeView.swift; sourceTree = "<group>"; };
 		ED562BC227F395CC002AE1B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ED562BC527F395CC002AE1B5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ED562BCD27F4EE96002AE1B5 /* FruitsContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FruitsContainer.xcdatamodel; sourceTree = "<group>"; };
+		ED562BD227F792D4002AE1B5 /* FruitsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitsViewModel.swift; sourceTree = "<group>"; };
+		ED562BD427F79314002AE1B5 /* Fruit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fruit.swift; sourceTree = "<group>"; };
+		ED562BD727F7935E002AE1B5 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		ED562BDA27F7956C002AE1B5 /* BaseFruits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseFruits.swift; sourceTree = "<group>"; };
+		ED562BDD27F7967D002AE1B5 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		ED562BDF27F79FC4002AE1B5 /* LandingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingView.swift; sourceTree = "<group>"; };
+		ED562BE127F7A560002AE1B5 /* ElectronicsHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElectronicsHomeView.swift; sourceTree = "<group>"; };
+		ED562BE327F7A6EF002AE1B5 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		ED562BE527F7A720002AE1B5 /* ElectronicsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElectronicsViewModel.swift; sourceTree = "<group>"; };
+		ED562BE727F7A781002AE1B5 /* BaseElectronics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseElectronics.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +73,16 @@
 		ED562BBD27F395CA002AE1B5 /* CoreDataFundamentals */ = {
 			isa = PBXGroup;
 			children = (
-				ED562BBE27F395CA002AE1B5 /* CoreDataFundamentalsApp.swift */,
-				ED562BC027F395CA002AE1B5 /* ContentView.swift */,
+				ED562BDC27F7965E002AE1B5 /* CoreDataManager */,
+				ED562BCF27F792A5002AE1B5 /* Model */,
+				ED562BD027F792AC002AE1B5 /* Views */,
+				ED562BD127F792B2002AE1B5 /* ViewModel */,
+				ED562BD927F7953C002AE1B5 /* Protocal */,
+				ED562BD627F7933F002AE1B5 /* Extension */,
+				ED562BBE27F395CA002AE1B5 /* MainApp.swift */,
 				ED562BC227F395CC002AE1B5 /* Assets.xcassets */,
 				ED562BC427F395CC002AE1B5 /* Preview Content */,
+				ED562BCC27F4EE96002AE1B5 /* CoreDataContainer.xcdatamodeld */,
 			);
 			path = CoreDataFundamentals;
 			sourceTree = "<group>";
@@ -65,6 +93,59 @@
 				ED562BC527F395CC002AE1B5 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		ED562BCF27F792A5002AE1B5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				ED562BD427F79314002AE1B5 /* Fruit.swift */,
+				ED562BE327F7A6EF002AE1B5 /* Product.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		ED562BD027F792AC002AE1B5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				ED562BC027F395CA002AE1B5 /* FruitsHomeView.swift */,
+				ED562BDF27F79FC4002AE1B5 /* LandingView.swift */,
+				ED562BE127F7A560002AE1B5 /* ElectronicsHomeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		ED562BD127F792B2002AE1B5 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				ED562BD227F792D4002AE1B5 /* FruitsViewModel.swift */,
+				ED562BE527F7A720002AE1B5 /* ElectronicsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		ED562BD627F7933F002AE1B5 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				ED562BD727F7935E002AE1B5 /* Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		ED562BD927F7953C002AE1B5 /* Protocal */ = {
+			isa = PBXGroup;
+			children = (
+				ED562BDA27F7956C002AE1B5 /* BaseFruits.swift */,
+				ED562BE727F7A781002AE1B5 /* BaseElectronics.swift */,
+			);
+			path = Protocal;
+			sourceTree = "<group>";
+		};
+		ED562BDC27F7965E002AE1B5 /* CoreDataManager */ = {
+			isa = PBXGroup;
+			children = (
+				ED562BDD27F7967D002AE1B5 /* CoreDataManager.swift */,
+			);
+			path = CoreDataManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +218,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED562BC127F395CA002AE1B5 /* ContentView.swift in Sources */,
-				ED562BBF27F395CA002AE1B5 /* CoreDataFundamentalsApp.swift in Sources */,
+				ED562BE027F79FC4002AE1B5 /* LandingView.swift in Sources */,
+				ED562BE827F7A781002AE1B5 /* BaseElectronics.swift in Sources */,
+				ED562BD527F79314002AE1B5 /* Fruit.swift in Sources */,
+				ED562BCE27F4EE96002AE1B5 /* CoreDataContainer.xcdatamodeld in Sources */,
+				ED562BD327F792D4002AE1B5 /* FruitsViewModel.swift in Sources */,
+				ED562BE627F7A720002AE1B5 /* ElectronicsViewModel.swift in Sources */,
+				ED562BD827F7935E002AE1B5 /* Extension.swift in Sources */,
+				ED562BE427F7A6EF002AE1B5 /* Product.swift in Sources */,
+				ED562BE227F7A560002AE1B5 /* ElectronicsHomeView.swift in Sources */,
+				ED562BC127F395CA002AE1B5 /* FruitsHomeView.swift in Sources */,
+				ED562BDB27F7956C002AE1B5 /* BaseFruits.swift in Sources */,
+				ED562BDE27F7967D002AE1B5 /* CoreDataManager.swift in Sources */,
+				ED562BBF27F395CA002AE1B5 /* MainApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +431,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		ED562BCC27F4EE96002AE1B5 /* CoreDataContainer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				ED562BCD27F4EE96002AE1B5 /* FruitsContainer.xcdatamodel */,
+			);
+			currentVersion = ED562BCD27F4EE96002AE1B5 /* FruitsContainer.xcdatamodel */;
+			path = CoreDataContainer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = ED562BB327F395CA002AE1B5 /* Project object */;
 }
