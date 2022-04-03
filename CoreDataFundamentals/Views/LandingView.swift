@@ -8,8 +8,6 @@
 import SwiftUI
 
 struct LandingView: View {
-    //    private var options: Array<Constant> = Array<Constant>()
-    
     @State private var selectedModule: ModuleName = .FRUITS
     @State private var navigate: Bool = false
     
@@ -64,8 +62,4 @@ struct LandingView_Previews: PreviewProvider {
     static var previews: some View {
         LandingView()
     }
-}
-
-enum ModuleName {
-    case FRUITS, ELECTRONICS
 }

@@ -22,6 +22,7 @@
 		ED562BE427F7A6EF002AE1B5 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED562BE327F7A6EF002AE1B5 /* Product.swift */; };
 		ED562BE627F7A720002AE1B5 /* ElectronicsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED562BE527F7A720002AE1B5 /* ElectronicsViewModel.swift */; };
 		ED562BE827F7A781002AE1B5 /* BaseElectronics.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED562BE727F7A781002AE1B5 /* BaseElectronics.swift */; };
+		ED562BEB27FA1CBB002AE1B5 /* ModuleName.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED562BEA27FA1CBB002AE1B5 /* ModuleName.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 		ED562BE327F7A6EF002AE1B5 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		ED562BE527F7A720002AE1B5 /* ElectronicsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElectronicsViewModel.swift; sourceTree = "<group>"; };
 		ED562BE727F7A781002AE1B5 /* BaseElectronics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseElectronics.swift; sourceTree = "<group>"; };
+		ED562BEA27FA1CBB002AE1B5 /* ModuleName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleName.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 		ED562BBD27F395CA002AE1B5 /* CoreDataFundamentals */ = {
 			isa = PBXGroup;
 			children = (
+				ED562BE927FA1CA8002AE1B5 /* Common */,
 				ED562BDC27F7965E002AE1B5 /* CoreDataManager */,
 				ED562BCF27F792A5002AE1B5 /* Model */,
 				ED562BD027F792AC002AE1B5 /* Views */,
@@ -146,6 +149,14 @@
 				ED562BDD27F7967D002AE1B5 /* CoreDataManager.swift */,
 			);
 			path = CoreDataManager;
+			sourceTree = "<group>";
+		};
+		ED562BE927FA1CA8002AE1B5 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				ED562BEA27FA1CBB002AE1B5 /* ModuleName.swift */,
+			);
+			path = Common;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,6 +241,7 @@
 				ED562BC127F395CA002AE1B5 /* FruitsHomeView.swift in Sources */,
 				ED562BDB27F7956C002AE1B5 /* BaseFruits.swift in Sources */,
 				ED562BDE27F7967D002AE1B5 /* CoreDataManager.swift in Sources */,
+				ED562BEB27FA1CBB002AE1B5 /* ModuleName.swift in Sources */,
 				ED562BBF27F395CA002AE1B5 /* MainApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
